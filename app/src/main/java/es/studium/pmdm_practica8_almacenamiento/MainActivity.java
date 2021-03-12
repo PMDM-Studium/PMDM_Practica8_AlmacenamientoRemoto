@@ -1,4 +1,5 @@
 package es.studium.pmdm_practica8_almacenamiento;
+
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Create an alert builder
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setTitle("Name");
+                builder.setTitle("Agregar Cuaderno");
 
                 // set the custom layout
                 final View customLayout = getLayoutInflater().inflate(R.layout.dialogo_agregar_cuaderno, null);
